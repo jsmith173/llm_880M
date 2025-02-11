@@ -1,8 +1,8 @@
 from openai import OpenAI
 import json,time
 
-model = "llama3.1"
-#model = "llama-3.2-3b-instruct"
+model = "DesignSoft/TINA_AI2_Q4"
+#model = "llama-3.2-3b-instruct_4tina2"
 
 port=11434
 #port=1234
@@ -34,7 +34,7 @@ def stream_response(model, messages):
 # Example messages
 messages = [
     {"role": "system", "content": "You are a helpful assistant."},
-    {"role": "user", "content": "Tell me the history of France in 200 words"}
+    {"role": "user", "content": "Tell me the history of France in 1000 words"}
 ]
 
 start_time = time.time()
