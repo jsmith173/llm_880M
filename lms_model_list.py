@@ -1,7 +1,7 @@
 import subprocess
 
 # Run the 'lms list' command
-result = subprocess.run(['lms', 'list'], capture_output=True, text=True)
+result = subprocess.run(['lms', 'ls'], capture_output=True, text=True)
 
 # Store the output in a string
 output_str = result.stdout
