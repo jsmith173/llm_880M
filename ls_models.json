@@ -1,0 +1,72 @@
+[
+    {
+        "modelKey": "meta-llama-3.1-8b-instruct",
+        "format": "gguf",
+        "displayName": "Meta Llama 3.1 8B Instruct",
+        "path": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+        "sizeBytes": 4920739168,
+        "paramsString": "8B",
+        "architecture": "llama",
+        "type": "llm",
+        "vision": false,
+        "trainedForToolUse": true
+    },
+    {
+        "modelKey": "llama-3.2-3b-instruct_4tina2",
+        "format": "gguf",
+        "displayName": "Llama 3.2 3B Instruct 4tina2",
+        "path": "DesignSoft/Llama-3.2-3B-Instruct_4TINA2-Q4_K_M-GGUF/llama-3.2-3b-instruct_4tina2-q4_k_m.gguf",
+        "sizeBytes": 2019377696,
+        "paramsString": "3B",
+        "architecture": "llama",
+        "type": "llm",
+        "vision": false,
+        "trainedForToolUse": true
+    },
+    {
+        "modelKey": "llama-3.2-3b-instruct",
+        "format": "gguf",
+        "displayName": "Llama 3.2 3B Instruct",
+        "path": "lmstudio-community/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+        "sizeBytes": 2019377440,
+        "paramsString": "3B",
+        "architecture": "llama",
+        "type": "llm",
+        "vision": false,
+        "trainedForToolUse": true
+    },
+    {
+        "modelKey": "deepseek-r1-distill-llama-8b",
+        "format": "gguf",
+        "displayName": "DeepSeek R1 Distill Llama 8B",
+        "path": "lmstudio-community/DeepSeek-R1-Distill-Llama-8B-GGUF/DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf",
+        "sizeBytes": 4920736320,
+        "paramsString": "8B",
+        "architecture": "llama",
+        "type": "llm",
+        "vision": false,
+        "trainedForToolUse": false
+    },
+    {
+        "modelKey": "deepseek-r1-distill-qwen-7b",
+        "format": "gguf",
+        "displayName": "DeepSeek R1 Distill Qwen 7B",
+        "path": "lmstudio-community/DeepSeek-R1-Distill-Qwen-7B-GGUF/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
+        "sizeBytes": 4683073216,
+        "paramsString": "7B",
+        "architecture": "qwen2",
+        "type": "llm",
+        "vision": false,
+        "trainedForToolUse": false
+    },
+    {
+        "modelKey": "text-embedding-nomic-embed-text-v1.5",
+        "format": "gguf",
+        "displayName": "Nomic Embed Text v1.5",
+        "path": "nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q4_K_M.gguf",
+        "sizeBytes": 84106624,
+        "paramsString": "",
+        "architecture": "nomic-bert",
+        "type": "embedding"
+    }
+]
