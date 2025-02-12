@@ -26,8 +26,14 @@ if js_inp['cmd'] == 'LS':
 	with open('ls_models.json', 'w', encoding='utf-8') as file:
 		file.write(json_data)
 
-elif js_inp['cmd'] == 'LOAD':
-	result = subprocess.run(['lms', 'load', js_inp['model']], capture_output=True, text=True)
+else:
+	if js_inp['cmd'] == 'LOAD':
+		result = subprocess.run(['lms', 'load', js_inp['model']], capture_output=True, text=True)
+	elif js_inp['cmd'] == 'UNLOAD':
+		result = subprocess.run(['lms', 'unload', js_inp['model']], capture_output=True, text=True)
+	elif js_inp['cmd'] == 'SERVER':
+		result = subprocess.run(['lms', 'server', js_inp['sub_cmd']], capture_output=True, text=True)
+
 	output_str = result.stdout
 	output_lines = output_str.splitlines()
 
