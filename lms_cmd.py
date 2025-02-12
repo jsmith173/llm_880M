@@ -1,7 +1,7 @@
 import subprocess
 import os,json
 
-INP = 'json_inp.json'
+INP = 'ls_cmd_inp.json'
 if os.path.exists(INP):
 	with open(INP, 'r', encoding='utf-8') as f:
 		js_inp = json.load(f)
