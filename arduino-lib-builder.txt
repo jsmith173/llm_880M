@@ -1,0 +1,6 @@
+Kellenek a modositott defconfig file-ok
+
+Build peldak
+------------
+./build.sh -t esp32c3 -D none
+./build.sh -t esp32s3 -D info
